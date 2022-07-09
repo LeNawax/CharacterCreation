@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français"/>
+  </tags>
+  <strings>
+    <!-- Options -->
+    <string id="CharacterCreation_ModNameText" text="Detailed Character Creation"/>
+    
+    <string id="CharacterCreation_Section0" text="Section 0: Debug Mode"/>
+    <string id="CharacterCreation_DebugModeName" text="Activer le mode Debug"/>
+    <string id="CharacterCreation_DebugModeHint" text="Activer le mode Debug de DCC. Ne nécessite pas de redémarrage."/>
+    
+    <string id="CharacterCreation_Section1" text="Section 1: Blocages"/>
+    <string id="CharacterCreation_IgnoreDailyTickName" text="Bloquer l'apparence"/>
+    <string id="CharacterCreation_IgnoreDailyTickHint" text="Gardez cela activé pour empêcher le jeu de réinitialiser votre apparence. Ne nécessite pas de redémarrage."/>
+    <string id="CharacterCreation_OverrideAgeName" text="Bloquer l'âge"/>
+    <string id="CharacterCreation_OverrideAgeHint" text="Gardez cela activé pour empêcher le jeu de modifier l'âge de votre personnage (par les années qui passent). Ne nécessite pas de redémarrage et prend effet après un chargement, ou le jour prochain. Paramètre ignoré si 'Désactiver le Vieillissement Automatique' est activé."/>
+    <string id="CharacterCreation_DisableAutoAgingName" text="Désactiver le Vieillissement Automatique"/>
+    <string id="CharacterCreation_DisableAutoAgingHint" text="Activer ceci pour empêcher le jeu de vieillir physiquement votre personnage. Ne nécessite pas de redémarrage et prend effet après un chargement, ou à la prochaine heure."/>
+
+    <string id="CharacterCreation_Section2" text="Section 2: Échelle des âges"/>
+    <string id="CharacterCreation_CustomAgeModelName" text="Échelle des âges personnalisée"/>
+    <string id="CharacterCreation_CustomAgeModelHint" text="Activer ceci pour utiliser une échelle d'âges personnalisée. Désactiver ceci si un autre mod utilise une échelle d'âge personnalisée. REDÉMARRAGE nécessaire !"/>
+    <string id="CharacterCreation_BecomeInfantAgeName" text="Nourrisson"/>
+    <string id="CharacterCreation_BecomeInfantAgeHint" text="Définir l'âge par défaut des nourrissons. Pas de redémarrage."/>
+    <string id="CharacterCreation_BecomeChildAgeName" text="Enfance"/>
+    <string id="CharacterCreation_BecomeChildAgeHint" text="Définir l'âge par défaut de l'enfance. Pas de redémarrage."/>
+    <string id="CharacterCreation_BecomeTeenagerAgeName" text="Adolescence"/>
+    <string id="CharacterCreation_BecomeTeenagerAgeHint" text="Définir l'âge par défaut de l'adolescence. Pas de redémarrage."/>
+    <string id="CharacterCreation_BecomeAdultAgeName" text="Âge adulte"/>
+    <string id="CharacterCreation_BecomeAdultAgeHint" text="Définir l'âge adulte par défaut. Pas de redémarrage."/>
+    <string id="CharacterCreation_BecomeOldAgeName" text="Vieillesse"/>
+    <string id="CharacterCreation_BecomeOldAgeHint" text="Définir l'âge par défaut de la vieillesse. Pas de redémarrage."/>
+    <string id="CharacterCreation_MaxAgeName" text="Âge maximum"/>
+    <string id="CharacterCreation_MaxAgeHint" text="Définir l'âge maximum. Pas de redémarrage."/>
+    
+    <!-- SubModule -->
+    <string id="CharacterCreation_LoadedModMessage" text="Detailed Character Creation"/>
+    <string id="CharacterCreation_EditAppearanceForHeroMessage" text="Édition d'apparence pour: "/>
+    <string id="CharacterCreation_ErrorLoadingDccMessage" text="Erreur d'initialisation de Detailed Character Creation:"/>
+    <string id="CharacterCreation_ExpectedActualAgeMessage" text="[Debug] {HERO_GENDER}Héroïne{?}Héros{\?} {HERO_NAME}: âge attendu: {AGE1}, âge actuel: {AGE2}"/>
+
+    <!-- HeroBuilderVM -->
+    <string id="CharacterCreation_ChangingNameForText" text="Changement de nom pour: "/>
+    <string id="CharacterCreation_InvalidCharacterText" text="Personnage invalide"/>
+    <string id="CharacterCreation_InvalidNameText" text="Nom invalide"/>
+    <string id="CharacterCreation_CharacterRenamerText" text="Renommer le personnage"/>
+    <string id="CharacterCreation_EnterNewNameText" text="Entrer un nouveau nom"/>
+    <string id="CharacterCreation_RenameText" text="Renommer"/>
+    <string id="CharacterCreation_CancelText" text="Annuler"/>
+    <string id="CharacterCreation_CannotRenamePlayerText" text="Impossible de renommer le personnage joueur avant nouvel ordre."/>
+
+    <!-- CharacterObjectPatch -->
+    <string id="CharacterCreation_HeroUpdatedMsg" text="{HERO_GENDER}Héroïne mise{?}Héros mis{\?} à jour: "/>
+    
+    <!-- BodyGeneratorPatch -->
+    <string id="CharacterCreation_ErrorText" text="Erreur:"/>
+    
+    <!-- Commands entries -->
+    <string id="CharacterCreation_DccDisabledMsg" text="Detailed Character Creation désactivé"/>
+    <string id="CharacterCreation_DccEnabledMsg" text="Detailed Character Creation activé. Appuyez sur V pour y accéder."/>
+    <string id="CharacterCreation_FormatMsgHeader" text="Format: "/>
+    <string id="CharacterCreation_HeroNameText" text="NomDeHéros"/>
+    <string id="CharacterCreation_AgeText" text="Âge"/>
+    <string id="CharacterCreation_HeroNotFoundMsg" text="Héros introuvable"/>
+    <string id="CharacterCreation_EnterAgeMsg" text="Entrez un âge."/>
+    <string id="CharacterCreation_SuccessMsg" text="Succès"/>
+
+    <!-- Compatibilité -->
+    <string id="CharacterCreation_Section3" text="Section 3: Compatibilité"/>
+    <string id="CharacterCreation_EnableCompatibilityName" text="Activer Compatibilité"/>
+    <string id="CharacterCreation_EnableCompatibilityHint" text="Activer les patchs de compatibilité pour résoudre les conflits entre mods. REDÉMARRAGE requis pour TOUTES les options."/>
+    <string id="CharacterCreation_EnableCharacterReloadCompatibilityName" text="Activer la compatibilité pour Character Reload"/>
+    <string id="CharacterCreation_EnableCharacterReloadCompatibilityHint" text="Activer le patch de compatibilité pour résoudre les conflits avec le mod Character Reload."/>
+    
+    <!-- ModuleProcessSkinxXmlPatch -->
+    <string id="CharacterCreation_ProcessSkinsXmlDebug" text="[CharacterCreation] Patch des fichiers Skins pour réinitialiser l'ordre de chargement"/>
+    
+    <!-- Body sliders -->
+    <string id="CharacterCreation_TorsoBelly" text="Tour de ventre"/>
+    <string id="CharacterCreation_TorsoHips" text="Tour de hanches"/>
+    <string id="CharacterCreation_TorsoButt" text="Tour de fesses"/>
+    <string id="CharacterCreation_Thigh" text="Tour de cuisses"/>
+    <string id="CharacterCreation_Calf" text="Taille des chevilles"/>
+    <string id="CharacterCreation_Foot" text="Taille des pieds"/>
+    <string id="CharacterCreation_TorsoX" text="Largeur du torse"/>
+    <string id="CharacterCreation_TorsoY" text="Profondeur du torse"/>
+    <string id="CharacterCreation_TorsoZ" text="Hauteur du torse"/>
+    <string id="CharacterCreation_ThoraxX" text="Largeur de la poitrine"/>
+    <string id="CharacterCreation_ThoraxY" text="Profondeur de la poitrine"/>
+    <string id="CharacterCreation_ThoraxZ" text="Hauteur de la poitrine"/>
+    <string id="CharacterCreation_Neck" text="Taille du cou"/>
+    <string id="CharacterCreation_HeadDepth" text="Profondeur de la tête"/>
+    <string id="CharacterCreation_HeadWidth" text="Largeur de la tête"/>
+    <string id="CharacterCreation_HeadHeight" text="Hauteur de la tête"/>
+    <string id="CharacterCreation_Shoulders" text="Taille des épaules"/>
+    <string id="CharacterCreation_UpperarmSize" text="Taille des biceps"/>
+    <string id="CharacterCreation_ForearmSize" text="Taille des avant-bras"/>
+    <string id="CharacterCreation_HandSize" text="Taille des mains"/>
+    <string id="CharacterCreation_weight" text="Musculature"/>
+    <string id="CharacterCreation_build" text="Ignorez ceci"/>
+    <string id="CharacterCreation_Weight2" text="Poids"/>
+    <string id="CharacterCreation_Build2" text="Carrure"/>
+    
+    <!-- Gestion des incompatibilités -->
+    <string id="CharacterCreation_DebugSetAppearanceMsg" text="[Debug] Définir l'apparence pour: "/>
+    <string id="CharacterCreation_DebugResultMsg" text="[Debug] Résultat: "/>
+    <string id="CharacterCreation_WarningTitle" text="ATTENTION"/>
+    <string id="CharacterCreation_WarningYes" text="Oui"/>
+    <string id="CharacterCreation_WarningNo" text="Non"/>
+    <string id="CharacterCreation_WarningAck" text="Admis"/>
+    <string id="CharacterCreation_WarningText" text="Désactiver le Cycle de Vie et de Mort est actuellement défini sur {LDC}, mais Désactiver le Vieillissement Automatique est définit sur {DAA}. êtes vous sûr(e) de vouloir changer les Options de campagne ? Si vous sélectionnez 'non', les changements sur le cycle de vie et de mor ne prendront effet qu'au chargement ou au démarrage d'une campagne."/>
+    <string id="CharacterCreation_WarningOverrideText" text="'Bloquer l'âge' est actuellement défini sur {OA}. êtes-vous sûr(e) de vouloir que votre {PLAYER.GENDER}héroïne{?}héros{\?} ne soit pas {PLAYER.GENDER}affectée{?}affecté{\?} par le vieillissement ? Votre choix affectera votre partie actuelle, jusqu'à ce que vous chargiez ou démarriez une campagne."/>
+    <string id="CharacterCreation_WarningConflictText" text="'Bloquer l'âge' est actuellement défini sur {OA}, mais Désactiver le Cycle de Vie et de Mort {LDC} est activé. Ces options ne seront pas appliquées."/>
+  </strings>
+</base>
